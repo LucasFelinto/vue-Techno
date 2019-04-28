@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(to right, #1A1A1A 30%, #FFFFFF 30%);
+  font-family: 'Noto Serif', serif;
+}
+
+
+#app {
+  padding: 0 80px;
+
+}
+
+.produtos {
+  max-width: 900px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.produto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, .1);
+}
+
+.produto_img {
+  max-width: 300px;
+  margin-right: 40px;
+}
+
+.produto_titulo {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.produto_preco {
+  color: rgba(0, 0, 0, 0.5)
+}
